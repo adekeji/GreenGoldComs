@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('../images/sample.webp') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+
+header {
+    background-color: rgba(0, 128, 0, 0.8); /* Vibrant green */
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .container {
+    position: relative;
+    z-index: 1;
+}
+
+header img {
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+nav {
+    background-color: rgba(255, 215, 0, 0.8); /* Vibrant gold */
+}
+
+nav a {
+    color: #000000; /* Black text for contrast */
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content {
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.hero-section {
+    padding: 150px 0;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.services {
+    padding: 60px 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #000000;
+    border-radius: 10px;
+    margin: 20px;
+}
+
+.services h2 {
+    margin-bottom: 40px;
+}
+
+.service-item {
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.service-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.service-item i {
+    font-size: 3rem;
+    color: #008000; /* Vibrant green */
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: rgba(0, 128, 0, 0.8); /* Vibrant green */
+    color: #FFD700; /* Gold */
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer a {
+    color: #FFD700; /* Gold */
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries for responsive design */
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 100px 0;
+    }
+    .hero-section h1 {
+        font-size: 2.5rem;
+    }
+    .hero-section p {
+        font-size: 1.2rem;
+    }
+    nav a {
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 576px) {
+    .hero-section {
+        padding: 70px 0;
+    }
+    .hero-section h1 {
+        font-size: 2rem;
+    }
+    .hero-section p {
+        font-size: 1rem;
+    }
+    nav a {
+        margin: 0 5px;
+    }
+}
